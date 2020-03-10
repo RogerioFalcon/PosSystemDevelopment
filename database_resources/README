@@ -1,0 +1,12 @@
+Note, if you are using 0.9.7  :
+
+Fixes to migrate from 0.9.7 to 0.9.8.0 database version
+(C) Hiram R Villarreal 2015-2016 [GPL v2 or later]
+
+run this as:
+
+cat fix_0.98.sql | mysql -u root -p
+
+
+
+

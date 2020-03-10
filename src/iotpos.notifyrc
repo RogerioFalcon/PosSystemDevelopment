@@ -1,0 +1,10 @@
+[Global]
+IconName=iotpos
+Comment=IoT Point of Sale
+Name=iotpos
+
+[Event/information]
+Name=information
+Comment=Show pertinent information
+Action=Sound|Popup
+

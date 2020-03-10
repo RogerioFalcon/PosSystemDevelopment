@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IotPOS
+Exec=iotpos %i -caption "%c"
+Icon=iotpos
+Type=Application
+DocPath=lemon/lemon.html
+GenericName=IoT Point of sale
+Terminal=0
+GenericName[en_US]=Iot Point of Sale

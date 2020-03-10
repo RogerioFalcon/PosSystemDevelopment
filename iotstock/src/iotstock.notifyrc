@@ -1,0 +1,10 @@
+[Global]
+IconName=iotstock
+Comment=iotstock - IotPOS Admin Module
+Name=iotstock
+
+[Event/information]
+Name=information
+Comment=Show pertinent information
+Action=Sound|Popup
+

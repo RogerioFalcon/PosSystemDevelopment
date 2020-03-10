@@ -1,0 +1,36 @@
+Welcome to IotPOS  an open source Point of Sale software, is targeted for micro, small and medium businesses. This Point of Sale was modified to work with single-board computers (SBC) as the Raspberry pi, banana pi and BeagleBone Black by making use of the GPIO interface, giving options and Internet of Things functions not possible with common laptops and PCs.
+
+This project reduces costs because it makes possible to embbeb two of the more expensive hardware parts on a Point of sale: the CPU and the ticket printer. Any generic serial TTL thermal printer could be used directly conected to the the GPIO serial TTL Tx pi using the /dev/ttyAMA0 serial out. Please see CONNECTIONS.png
+
+Just add monitor, keyboard and mouse and you ready to go with your bussines. Work with many USB barcode readers. 
+
+MySQL is employed for data management and storage, and can be used a single database with many POS terminals on a network. Being Linux or any other Unix the target operating system, your information is safer against virus attacks, and lowers the costs in licenses.
+
+IotPOS provides an easy to use Interface, a search panel, a price-checker tool. Includes IoTStock  administration tool for managing your store, printed reports, even includes a funtion to print your own barcode labels too; no need to buy a dedicated barcode label printer.
+
+IotPos and IotStock are derived from LemonPOS, to his author: Miguel Chavez Gamboa, and collaborators; all my respects.
+
+-This method is the easy way to setup and install iotpos.
+
+Just copy and paste the following lines into a terminal:
+
+	git clone https://www.github.com/hiramvillarreal/iotpos
+	cd iotpos
+	sudo chmod +x install.sh
+	sudo ./install.sh
+  
+To start using the point of sale, in terminal type:
+
+  iotpos
+  
+     * The default and only user and password is (without quotation marks):
+     username: "admin"
+     password: "linux"
+  
+To start using the administration module, in terminal type:
+
+  iotstock
+  
+For an easy first time use, all security settings are disabled.  
+
+For more details please read: USING file and doc folder.
